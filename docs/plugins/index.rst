@@ -103,6 +103,7 @@ databases. They share the following configuration options:
     mbsync
     metasync
     missing
+    missingfiles
     mpdstats
     mpdupdate
     musicbrainz
@@ -385,6 +386,10 @@ Miscellaneous
 
 :doc:`missing <missing>`
     List missing tracks.
+
+:doc:`missingfiles <missingfiles>`
+    Detect library entries with missing files, folders, or album art, and
+    optionally delete them.
 
 mstream_
     A music streaming server + webapp that can be used alongside beets.

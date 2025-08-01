@@ -26,6 +26,8 @@ New features
   :bug:`6741`
 - Add ``-l / --limit LIMIT`` to other query-based commands. Commands that
   already use ``-l`` for another purpose accept ``--limit LIMIT`` only.
+- :doc:`plugins/missingfiles`: Added new ``missingfiles`` plugin to scan your
+  library for missing files and album art.
 
 Bug fixes
 ~~~~~~~~~
